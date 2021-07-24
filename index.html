@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Company ToDoList📆</title>
+</head>
+
+<body>
+
+	<div>
+		<div id="title-bar">
+			<h1 id="title">Company ToDoList📆</h1>
+		</div>
+
+		<div id="clock-bar">
+			<div id="clockdiv">
+				<div><span class="month clock-text"></span>
+					<div class="smalltext">Month</div>
+				</div>
+
+				<div><span class="days clock-text"></span>
+					<div class="smalltext">Day</div>
+				</div>
+				<div><span class="hours clock-text"></span>
+					<div class="smalltext">Hours</div>
+				</div>
+				<div><span class="minutes clock-text"></span>
+					<div class="smalltext">Minutes</div>
+				</div>
+				<div><span class="seconds clock-text"></span>
+					<div class="smalltext">Seconds</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<nav id="greeting" class="">
+		<ul class="nav-container">
+			<li class="nav-item>">
+			
+			</li>
+			<li class="nav-item>">
+				<li class="nav-item>">
+				
+				</li>
+			</li>
+			<li class="nav-item>">
+				<li class="nav-item>">
+					
+				</li>
+			</li>
+		</ul>
+	</nav>
+
+
+	<div id="user-form" class="hidden">
+		<form id="login"> 
+			<p>
+				<label for="username">Username</label>
+				<input id="username" name="username" type="text" required>
+			</p>
+
+			<p>
+				<label for="company">Company</label>
+				<input id="company" name="company" type="text" required>
+			</p>
+
+			<p>
+				<label for="date">Effective Date</label>
+				<input id="date" name="date" type="date" required>
+			</p>
+
+
+			<p>
+				<input type="submit" value="SUBMIT" id="submit">
+			</p>
+		</form>
+	</div>
+
+
+	<div id="todo-layout" class="hidden">
+		<form id="todo-form" >
+			<h1>📆Company ToDoList</h1>
+			<input type="text" placeholder="📝 Please enter After Write a text" required />
+		</form>
+	
+		<form class="todo-ui">
+			<ul id="todo-list">
+			</ul>
+		</form>
+
+	</div>
+
+
+
+	<div id="weather">
+		<span></span>
+		<span></span>
+	</div>
+
+
+	<footer class="footer-layout"></footer>
+
+
+	<script src="js/auth.js"></script>
+	<script src="js/clock.js"></script>
+	<script src="js/background.js"></script>
+	<script src="js/toDo.js"></script>
+	<script src="js/weather.js"></script>
+
+</body>
+
+</html>
