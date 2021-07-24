@@ -10,6 +10,10 @@ Nomadcoders 바닐라 JS 2주 완성반 강의를 수강하면서, 개발한 간
 
 > 주요기능
 
+<img src="./img/ToDOList.jpeg">
+
+
+
 1. LocalStorage를 활용한 로그인
 
 2. ToDoList 추가/삭제
